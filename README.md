@@ -226,7 +226,7 @@ astro dev logs
 
 ## 🙏 Acknowledgments
 
-This project was developed following a comprehensive tutorial from YouTube. Special thanks to the tutorial creator for providing clear guidance on building ETL pipelines with Apache Airflow and modern data engineering practices.
+This project was developed following a comprehensive tutorial from YouTube (https://www.youtube.com/watch?v=Y_vQyMljDsE&t=791s&ab_channel=KrishNaik). Special thanks to the tutorial creator for providing clear guidance on building ETL pipelines with Apache Airflow and modern data engineering practices.
 
 ---
 
