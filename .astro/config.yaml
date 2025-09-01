@@ -1,0 +1,8 @@
+project:
+    name: etl-weather
+postgres:
+  port: 5433
+webserver:
+  port: 8081
+api-server:
+  port: 8091
