@@ -152,26 +152,6 @@ Deploy using:
 - **Amazon MWAA** (Managed Workflows for Apache Airflow)
 - **EC2/EKS** with Astronomer deployment guides
 
-## 📁 Project Structure
-
-```
-etl-weather-pipeline/
-├── dags/
-│   ├── etl_weather_dag.py          # Main pipeline DAG
-│   └── etlweather.py               # Alternative implementation
-├── include/                        # Additional project files
-├── plugins/                        # Custom Airflow plugins
-├── docker-compose.yml              # Docker services configuration
-├── docker-compose.override.yml     # Local environment overrides
-├── Dockerfile                      # Airflow container configuration
-├── requirements.txt                # Python dependencies
-├── packages.txt                    # OS-level packages
-├── airflow_settings.yaml           # Local Airflow configuration
-├── README.md                       # Project documentation
-└── docs/                          # Additional documentation
-    └── ETL Weather Data Project Final Report.pdf
-```
-
 ## 🔧 Configuration
 
 ### Environment Variables
@@ -244,13 +224,9 @@ astro dev logs
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
-This project was developed following a comprehensive tutorial from YouTube. Special thanks to the tutorial creator for providing clear guidance on building ETL pipelines with Apache Airflow and modern data engineering practices.
+This project was developed following a comprehensive tutorial from YouTube (https://www.youtube.com/watch?v=Y_vQyMljDsE&t=791s&ab_channel=KrishNaik). Special thanks to the tutorial creator for providing clear guidance on building ETL pipelines with Apache Airflow and modern data engineering practices.
 
 ---
 
